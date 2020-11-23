@@ -3,3 +3,116 @@
     padding:0;
     
 }
+
+/* *debut header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+header h1{
+align-self: center;    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+/* *fin header */
+.wrapper{
+    margin: 0 40px 0 40px;
+}
+/** debut main */
+main{
+display: flex;
+flex-direction: column;
+
+}
+/* *debut search */
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+}
+.h-a{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.h-a div{
+    width: 50%;
+    text-align: center;
+    border-bottom: 10px solid #F2F2F2;
+    padding-bottom: 20px;
+   
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.search-bar aside{
+    margin-bottom: 25px;
+    line-height: 2.5em;
+
+}
+.filtre{
+    align-self: center;
+    margin-top: 50px;
+    line-height: 2em;
+    
+}
+
+/* fin search */
+/* debut populaire */
+.populaire{     
+    align-self: center;
+    background-color:  #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.vignette{
+   margin-bottom: 50px;
+   background-color:
+}
+.image{
+    width: 250px;
+    height: 150px;
+border: blue 5px solid;
+}
+section aside{
+    margin-bottom: 20px;
+}
+/* fin populaire */
+/* debut hebergement */
+.hebergement {
+align-self: center;    
+}
+/* fin hebergement */
+/* debut activite */
+.activite{
+    margin-top: 50px;
+    align-self: center;
+}
+/* fin activite */
+/* debut footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #F2F2F2;
+}
+footer div{
+    margin-top: 20px;
+    line-height: 2em;
+}
