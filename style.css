@@ -3,6 +3,10 @@
     padding:0;
     
 }
+.wrapper{
+    margin: 0 40px 0 40px;
+}
+
 
 /* *debut header */
 
@@ -13,18 +17,20 @@ header{
     
 }
 header h1{
-align-self: center;    
+margin-top:85px;
+font-size: 50px;
 }
 
+header a{
+    color:  #0065FC;  
+
+}
 a{
     text-decoration: none;
     
 }
 
 /* *fin header */
-.wrapper{
-    margin: 0 40px 0 40px;
-}
 /** debut main */
 main{
 display: flex;
