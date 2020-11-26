@@ -54,11 +54,16 @@ flex-direction: column;
 .h-a div{
     width: 50%;
     text-align: center;
-    border-bottom: 10px solid #F2F2F2;
+    font-size: 25px;
+    border-bottom: 8px solid #F2F2F2;
     padding-bottom: 20px;
-   
 }
-
+.h-a a{
+    color:black;
+}
+.h-a a:hover{
+    color:#0065FC;
+}
 .search-bar{
     display: flex;
     flex-direction: column;
@@ -67,14 +72,55 @@ flex-direction: column;
 }
 .search-bar aside{
     margin-bottom: 25px;
-    line-height: 2.5em;
+    width: 80%;
+    line-height: 2em;
+    font-size: 35px;
+    text-align: center;
 
 }
+.bar{
+    display: flex;
+    flex-direction: row;
+}
+.position{
+    border: 20px solid #F2F2F2 ;
+    border-radius: 30% 0 0 30%;
+    width: 20px;
+    height: 20px;
+    background: url("images/logo/map-marker-alt-solid.svg")no-repeat center #F2F2F2;
+}
+input{
+height: 55px;
+width: 25rem;
+margin-top: 3px;
+border: #F2F2F2;
+border-right: none;
+border-left: none;
+}
+.loupe{
+    border: 20px solid #0065FC ;
+    border-radius: 30% 30% 30% 30%;
+    width: 20px;
+    height: 20px;
+    background: url("images/logo/search-solid.svg")no-repeat #0065FC;
+}
+
 .filtre{
     align-self: center;
     margin-top: 50px;
     line-height: 2em;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+}
+.filtre div  {
+    border: 1px solid black;
+    border-radius:0 40% 40% 0;
+    height: 50px;
+    width: 10rem;
 }
 
 /* fin search */
@@ -113,12 +159,14 @@ align-self: center;
 /* fin activite */
 /* debut footer */
 footer{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     background-color:  #F2F2F2;
 }
 footer div{
+    width: 100%;
     margin-top: 20px;
     line-height: 2em;
 }
