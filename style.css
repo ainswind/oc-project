@@ -4,25 +4,27 @@
     
 }
 .wrapper{
-    margin: 0  0 0 40px;
+   width: 300px; 
 }
 
 
 /* *debut header */
 
 header{
+    width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
 header img{
-    height:100px;
+    height:50px;
 }
 header h1{
-margin-top:35px;
-font-size: 35px;
-margin-left: 45%;
+margin-top:20px;
+font-size: 15px;
+margin-right: 20px;
+
 
 }
 
@@ -44,14 +46,14 @@ flex-direction: column;
 }
 /* *debut search */
 .search{
-    width: 100%;
+    
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
 
 }
 .h-a{
-    width: 30rem;
+    width:300px;     
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -60,7 +62,7 @@ flex-direction: column;
 .h-a div{
     width: 50%;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     border-bottom: 8px solid #F2F2F2;
     padding-bottom: 20px;
 }
@@ -71,6 +73,7 @@ flex-direction: column;
     color:#0065FC;
 }
 .search-bar{
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,70 +81,69 @@ flex-direction: column;
 }
 .search-bar aside{
     margin-bottom: 25px;
-    width: 28rem;
-    margin-left: 80%;
+    margin-left: 5px;
     line-height: 2em;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 
 }
 .bar{
     display: flex;
     flex-direction: row;
-    margin-left: 80%;
 }
 .position{
-    border: 20px solid #F2F2F2 ;
+    border: 10px solid #F2F2F2 ;
     border-radius: 30% 0 0 30%;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     background: url("images/logo/map-marker-alt-solid.svg")no-repeat center #F2F2F2;
 }
 input{
-height: 70px;
-width: 15rem;
+height: 20px;
+width: 150px;
 margin-top: 3px;
 border: #F2F2F2;
 border-right: none;
 border-left: none;
 }
 .loupe{
-    border: 20px solid #0065FC ;
+    border: 10px solid #0065FC ;
     border-radius: 30% 30% 30% 30%;
-    width: 40px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background: url("images/logo/search-solid.svg")no-repeat #0065FC;
 }
 
 .filtre{
+    width: 300px; 
     margin-top: 50px;
     line-height: 2em;
     display: flex;
     flex-direction: column;
-    margin-left:10%;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 40px;
     
 }
 .theme  {
     border: 1px solid #F2F2F2;
     border-left: none;
     border-radius:25%;
-    height: 50px;
-    width: 18rem;
+    height: 20px;
+    width: 300px;
     display: flex;
     flex-direction: row;
     margin-top: 25px;
     
 }
 .icone {
-    width: 50px;
-    height: 45px;
-    border: 1px solid #F2F2F2;
+    width: 20px;
+    height: 20px;
+    border: 10px solid #F2F2F2;
     border-radius: 60%;
 }
 .theme a{
     margin-left: 40px;
-    font-size: 25px;
+    font-size: 15px;
     color: black;
 }
 #eco{
@@ -152,9 +154,10 @@ border-left: none;
 #pet{background: url("images/logo/dog-solid.svg")no-repeat #DEEBFF center ;}
 .info{
     margin-top:20px;
-    width: 25rem;
+    width: 16rem;
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
     
 }
 #info-icone{
@@ -162,16 +165,16 @@ border-left: none;
     border:1px solid #F2F2F2;
     width: 20px;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .info p {
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 10px;
 }
 /* fin search */
 /* debut populaire */
 .populaire{     
-    width: 25rem;
+    width:300px;
     background-color:  #F2F2F2;
     display: flex;
     flex-direction: column;
@@ -183,11 +186,13 @@ border-left: none;
    align-self: center;
     margin-bottom: 50px;
    border:1px solide white;
-   width:20rem;
+   width:16rem;
    border-radius: 20%;
    background-color:white;
    display: flex;
    flex-direction: row;
+   font-size: 10px;
+
 }
 .vignette img {
     width: 100px;
@@ -197,6 +202,7 @@ border-left: none;
 }
 .vignette p{
     line-height: 2rem;
+    
 }
 
 section aside{
@@ -205,30 +211,47 @@ section aside{
 /* fin populaire */
 /* debut hebergement */
 .hebergement {
-width: 25rem;   
+width: 300px; 
+display: flex;
+flex-direction: column;
+}
+.hebergement aside{
+margin-left: 20px;
 }
 .vignette2{
 border: 1px solid #F2F2F2;
 border-radius:10%;
-margin-top: 10%;
-padding-bottom: 10%;
+margin-top: 20px;
+padding-bottom: 20px;
+margin-left: 40px;
+font-size: 10px;
 }
 .vignette2 img{
-    width:400px;
-    height:150px;
+    width:200px;
+    height:80px;
     border-radius: 10% 10% 0 0%;
 }
 .vignette2 div{
-    margin-left:10%;
+    margin-left:10px;
+    
 }
 .hebergement a{
-    color:black
+    color:black;
+    font-size:15px;
+    align-self:flex-start;
+    margin-left: 20px;
 }
 /* fin hebergement */
 /* debut activite */
 .activite{
+    width: 300px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 
+}
+.activite aside{
+    margin-left: 20px;
 }
 /* fin activite */
 /* debut footer */
