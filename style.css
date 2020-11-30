@@ -94,12 +94,12 @@ flex-direction: column;
 .position{
     border: 10px solid #F2F2F2 ;
     border-radius: 30% 0 0 30%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: url("images/logo/map-marker-alt-solid.svg")no-repeat center #F2F2F2;
 }
 input{
-height: 20px;
+height: 40px;
 width: 150px;
 margin-top: 3px;
 border: #F2F2F2;
@@ -109,8 +109,8 @@ border-left: none;
 .loupe{
     border: 10px solid #0065FC ;
     border-radius: 30% 30% 30% 30%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: url("images/logo/search-solid.svg")no-repeat #0065FC;
 }
 
