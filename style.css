@@ -85,13 +85,13 @@ flex-direction: column;
 .position{
     border: 20px solid #F2F2F2 ;
     border-radius: 30% 0 0 30%;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     background: url("images/logo/map-marker-alt-solid.svg")no-repeat center #F2F2F2;
 }
 input{
-height: 55px;
-width: 25rem;
+height: 70px;
+width: 30rem;
 margin-top: 3px;
 border: #F2F2F2;
 border-right: none;
@@ -100,29 +100,64 @@ border-left: none;
 .loupe{
     border: 20px solid #0065FC ;
     border-radius: 30% 30% 30% 30%;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 30px;
     background: url("images/logo/search-solid.svg")no-repeat #0065FC;
 }
 
 .filtre{
-    align-self: center;
     margin-top: 50px;
     line-height: 2em;
-    width: 100%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left:15%;
+    font-size: 30px;
     
 }
-.filtre div  {
-    border: 1px solid black;
-    border-radius:0 40% 40% 0;
+.theme  {
+    border: 1px solid #F2F2F2;
+    border-left: none;
+    border-radius:25%;
     height: 50px;
-    width: 10rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    
 }
-
+.icone {
+    width: 50px;
+    height: 45px;
+    border: 1px solid #F2F2F2;
+    border-radius: 60%;
+}
+.theme a{
+    margin-left: 40px;
+    font-size: 25px;
+}
+#eco{
+    background: url("images/logo/money-bill-wave-solid.svg") no-repeat #DEEBFF center  ;
+}
+#fam{background: url("images/logo/child-solid.svg") no-repeat #DEEBFF center ;}
+#rom{background: url("images/logo/heart-solid.svg")no-repeat #DEEBFF center ;}
+#pet{background: url("images/logo/dog-solid.svg")no-repeat #DEEBFF center ;}
+.info{
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#info-icone{
+    background: url("images/logo/info-circle-solid.svg") no-repeat;
+    border:1px solid #F2F2F2;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+.info p {
+    margin-left: 10px;
+    font-size: 15px;
+}
 /* fin search */
 /* debut populaire */
 .populaire{     
