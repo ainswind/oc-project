@@ -81,6 +81,9 @@ flex-direction: column;
 .h-a a:hover{
     color:#0065FC;
 }
+.h-a-desktop{
+    display:none;
+}
 .search-bar{
     display: flex;
     flex-direction: column;
@@ -125,6 +128,10 @@ font-size: 12px;
     width: 20px;
     height: 20px;
     background: url("images/logo/search-solid.svg")no-repeat #0065FC;
+    
+}
+.rechercher {
+    display:none;
 }
 
 .filtre{
@@ -412,9 +419,7 @@ footer a {
             font-size: 27px;
             width:560px;
             }  
-            .search-bar p{
-                
-            }
+            
             .position{
                 width: 40px;
                 height: 40px;
@@ -513,4 +518,981 @@ footer a {
                         font-size: 20px ;
                     }  
     
+}
+@media all and (min-width:1024px){
+    .wrapper{
+        width:100%;
+        
+        
+     }
+     header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    }
+    header img{
+        height:50px;
+        margin-left:20px;
+        margin-top: 20px;
+        
+    }
+    header h1{
+    margin-top:40px;
+    font-size: 18px;
+    
+    }
+    
+    header a{
+        color:  #0065FC;  
+    
+    }
+    nav{
+        
+        width:400px;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+
+    }
+    .h-a-desktop{
+        
+        width:300px;
+        
+        margin-top:18px;
+        font-size:18px;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+    }
+    .h-a-desktop div{
+        padding-top: 20px;
+    }
+    .h-a-desktop a{
+        color:black;
+    }
+    #h{
+        border-top:solid 1px  #0065FC;
+        width: 120px;
+        text-align: center;
+        
+    }
+    #h a{
+        color:  #0065FC;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    main{
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        
+        }
+        .search{
+            margin-top:50px;
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 100px;
+            margin-left: 20px;
+        
+        }
+        .h-a{
+                
+            display: none;
+            
+        }
+       
+        .search-bar{
+            
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+        
+        }
+        .search-bar aside{
+            width:700px;
+            margin-bottom: 25px;
+            margin-left: 5px;
+            line-height: 2em;
+            font-size: 15px;
+            text-align:left;
+        }
+        .bar{
+            display: flex;
+            flex-direction: row;
+        }
+        .position{
+            border: 10px solid #F2F2F2 ;
+            border-radius: 30% 0 0 30%;
+            width: 30px;
+            height: 30px;
+            background: url("images/logo/map-marker-alt-solid.svg")no-repeat center #F2F2F2;
+        }
+        input{
+        height: 40px;
+        width: 220px;
+        margin-top: 3px;
+        border: #F2F2F2;
+        border-right: none;
+        border-left: none;
+        font-size:14px;
+        }
+        .loupe{
+            border: 10px solid #0065FC ;
+            border-radius: 30% 30% 30% 30%;
+            width: 30px;
+            height: 30px;
+           display: none;
+        }
+        .rechercher{
+           display:flex;
+           flex-direction:row;
+           justify-content: center; 
+           border:solid 1px #0065FC;
+           background:#0065FC;
+            width:130px;
+            border-radius:0 18% 18% 0;
+            height:40px;
+            
+        }
+        .rechercher p{
+            color:white;
+            margin-top:10px;
+            font-size:18px;
+        }
+        .filtre{
+            width:90%;
+            margin-top: 20;
+            line-height: 2em;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 20px;
+            margin-left:0 ;
+            
+        }
+        .filtre h3{
+            margin-top: 25px;
+        }
+        .theme  {
+            border: 4px solid #F2F2F2 ;
+            border-left: none;
+            border-radius:25%;
+            height: 40px;
+            width: 150px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            
+        }
+        .animaux{
+            width: 200px;
+        }
+        .icone {
+            width: 20px;
+            height: 20px;
+            border: 10px solid #F2F2F2;
+            border-radius: 60%;
+        }
+        .theme a{
+            margin-left: 20px;
+            font-size: 15px;
+            color: black;
+        }
+        #eco{
+            background: url("images/logo/money-bill-wave-solid.svg") no-repeat #DEEBFF center  ;
+        }
+        #fam{background: url("images/logo/child-solid.svg") no-repeat #DEEBFF center ;}
+        #rom{background: url("images/logo/heart-solid.svg")no-repeat #DEEBFF center ;}
+        #pet{background: url("images/logo/dog-solid.svg")no-repeat #DEEBFF center ;}
+        .info{
+            margin-top:20px;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        #info-icone{
+            background: url("images/logo/info-circle-solid.svg") no-repeat;
+            border:1px solid #F2F2F2;
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+        }
+        .info p {
+            margin-left: 10px;
+            font-size: 12px;
+        }
+        .populaire{     
+            order:1;
+            background-color:  #F2F2F2;
+            width:33%;
+            
+            border-radius:5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+        }
+        section aside{
+            
+            margin-bottom: 30px;
+            margin-top: 40px;
+            align-self: flex-start;
+            width: 280px;
+            margin-left: 30px;
+            font-size: 13px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        aside div{
+            background: url("images/logo/chart-line-solid.svg") no-repeat;
+            width: 20px;
+            height: 20px;
+            margin-top: 5px;
+        }
+        .vignette{
+           align-self: center;
+            margin-bottom: 50px;
+            border:1px solide white;
+            box-shadow: white 5px 5px 5px;
+            width:290px;
+           border-radius: 18%;
+           background-color:white;
+           display: flex;
+           flex-direction: row;
+           font-size: 10px;
+        
+        }
+        .vignette img {
+            width: 160px;
+            height: 160px;
+            border-radius: 18% 0 0 18%;
+            margin-right:20px;
+        }
+        #hotes{
+            width:250px;
+        }
+        #hotelbb{
+            width:180px;
+        }
+        .detail{
+            margin-top: 10px;
+        }
+        .vignette p{
+            line-height: 2rem;
+            
+        }
+        .note{
+        display: flex;
+        margin-top: 10px;
+        }
+        .star-solid{
+        background: url("images/logo/star-solid.svg") no-repeat;
+        width: 10px;
+        height: 10px;
+        }
+        .star-regular{
+        background: url("images/logo/star-regular.svg") no-repeat;
+        width: 10px;
+        height: 10px;
+        }
+        .hebergement {
+            order:0;
+            
+            background-color:  #F2F2F2;
+            border-radius:5%;
+            width:60%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+
+            }
+            .hebergement aside{
+            width:600px;
+            margin-left: 30px;
+            
+            }
+            .vignette2{
+            border: 1px solid #F2F2F2;
+            box-shadow: #F2F2F2 5px 5px 5px;
+            background-color:white;
+            width: 180px;
+            border-radius:10%;
+        
+            padding-bottom: 20px;
+            margin-left:18px;
+            font-size: 10px;
+            }
+            .vignette2 img{
+                width:180px;
+                height:150px;
+                border-radius: 10% 10% 0 0%;
+            }
+            .vignette2 .detail{
+                margin-left: 15px;
+            }
+            .hebergement a{
+                color:black;
+                font-size:15px;
+                align-self:flex-start;
+                margin-top: 20px;
+                margin-left: 40px;
+            }
+            .activite{
+                order:2;
+                width:100%;
+                align-self: flex-start;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            
+            }
+            .activite aside{
+                margin-left: 30px;
+                width:100%;
+            }
+            .petit {
+                
+                display: flex;
+                flex-direction: column;
+            }
+            
+            
+            #vieux{
+                height:400px;
+                width:230px;
+                
+            }
+            #vieux-port{
+                width: 230px ;
+            }
+            #parc-national{
+                width: 230px;
+            }
+            #national{
+                width:230px;
+                height:400px;
+            }
+            #fort-de{
+                width:240px;
+            }
+            #fort-de img{
+                width:240px;
+                height:180px;
+            }
+            #ile{
+                width:240px;
+                margin-top:60px;
+            }
+            #ile img{
+                width:240px;
+                height:110px;
+            }
+            #notre-dame{
+               width:220px; 
+            }
+            #notre-dame img{
+                width:220px;
+                height:120px;
+            }
+            #parc-longchamp{
+                width:220px;
+                margin-top:100px;
+            }
+            #parc-longchamp img {
+                width:220px;
+                height:130px;
+            }
+
+            footer{
+                margin-top: 50px;
+                display: flex;
+                flex-direction: row;
+                background-color:  #F2F2F2;
+                padding-bottom: 50px;
+            }
+            footer div{
+                width: 100%;
+                margin-top: 40px;
+                line-height: 1.5em;
+                margin-left: 40px;
+            }
+            footer h2{
+                margin-bottom: 10px;
+            }
+            footer a {
+                color: black;
+                font-size: 13px;
+            }
+    }
+
+@media all and (min-width:1440px){
+    .wrapper{
+        width:100%;
+     }
+        
+        .filtre{
+            width:900px;
+            margin-top: 20;
+            line-height: 2em;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 20px;
+            margin-left:0 ;
+            
+        }
+        .filtre h3{
+            margin-top: 25px;
+        }
+        .theme  {
+            border: 4px solid #F2F2F2 ;
+            border-left: none;
+            border-radius:25%;
+            height: 40px;
+            width: 150px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            
+        }
+        .animaux{
+            width: 200px;
+        }
+        .icone {
+            width: 20px;
+            height: 20px;
+            border: 10px solid #F2F2F2;
+            border-radius: 60%;
+        }
+        .theme a{
+            margin-left: 20px;
+            font-size: 15px;
+            color: black;
+        }
+        #eco{
+            background: url("images/logo/money-bill-wave-solid.svg") no-repeat #DEEBFF center  ;
+        }
+        #fam{background: url("images/logo/child-solid.svg") no-repeat #DEEBFF center ;}
+        #rom{background: url("images/logo/heart-solid.svg")no-repeat #DEEBFF center ;}
+        #pet{background: url("images/logo/dog-solid.svg")no-repeat #DEEBFF center ;}
+        .info{
+            margin-top:20px;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        #info-icone{
+            background: url("images/logo/info-circle-solid.svg") no-repeat;
+            border:1px solid #F2F2F2;
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+        }
+        .info p {
+            margin-left: 10px;
+            font-size: 12px;
+        }
+        .populaire{     
+            order:1;
+            background-color:  #F2F2F2;
+            width:33%;
+            
+            border-radius:5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+        }
+        section aside{
+            
+            margin-bottom: 30px;
+            margin-top: 40px;
+            align-self: flex-start;
+            width: 400px;
+            margin-left: 30px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        aside div{
+            background: url("images/logo/chart-line-solid.svg") no-repeat;
+            width: 30px;
+            height: 30px;
+            margin-top: 5px;
+        }
+        .vignette{
+           align-self: center;
+            margin-bottom: 50px;
+            
+            border:1px solide white;
+            box-shadow: white 5px 5px 5px;
+            width:400px;
+           border-radius: 18%;
+           background-color:white;
+           display: flex;
+           flex-direction: row;
+           font-size: 15px;
+        
+        }
+        .vignette img {
+            width: 160px;
+            height: 180px;
+            border-radius: 18% 0 0 18%;
+            margin-right:20px;
+        }
+        #hotes{
+            width:250px;
+        }
+        #hotelbb{
+            width:180px;
+        }
+        .detail{
+            margin-top: 10px;
+        }
+        .vignette p{
+            line-height: 2rem;
+            
+        }
+        .note{
+        display: flex;
+        margin-top: 0;
+        }
+        .star-solid{
+        background: url("images/logo/star-solid.svg") no-repeat;
+        width: 20px;
+        height: 20px;
+        }
+        .star-regular{
+        background: url("images/logo/star-regular.svg") no-repeat;
+        width: 20px;
+        height: 20px;
+        }
+        .hebergement {
+            order:0;
+            
+          
+            border-radius:5%;
+            width:62%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            
+            }
+            .hebergement aside{
+            width:100%;
+            margin-left: 30px;
+            
+            }
+            .vignette2{
+            border: 1px solid #F2F2F2;
+            box-shadow: #F2F2F2 5px 5px 5px;
+            min-width: 260px;
+            border-radius:10%;
+        
+            padding-bottom: 20px;
+            margin-left:18px;
+            font-size: 15px;
+            }
+            .vignette2 img{
+                width:260px;
+                height:150px;
+                border-radius: 10% 10% 0 0%;
+            }
+            .vignette2 .detail{
+                margin-left: 15px;
+            }
+            .note{
+                margin-top:10px
+            }
+            .hebergement a{
+                color:black;
+                font-size:15px;
+                align-self:flex-start;
+                margin-top: 20px;
+                margin-left: 20px;
+                width:100%;
+            }
+            .activite{
+                order:2;
+                width:100%;
+                align-self: flex-start;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            
+            }
+            .activite aside{
+                margin-left: 30px;
+                width:100%;
+            }
+            .petit {
+                
+                display: flex;
+                flex-direction: column;
+            }
+            
+            
+            #vieux{
+                height:400px;
+                width:320px;
+                
+            }
+            #vieux-port{
+                width: 320px ;
+            }
+            #parc-national{
+                width: 320px ;
+            }
+            #national{
+                width:320px;
+                height:400px;
+            }
+            #fort-de{
+                width:320px;
+            }
+            #fort-de img{
+                width:320px;
+                height:180px;
+            }
+            #ile{
+                width:320px;
+                margin-top:50px;
+            }
+            #ile img{
+                width:320px;
+                height:110px;
+            }
+            #notre-dame{
+               width:320px; 
+            }
+            #notre-dame img{
+                width:320px;
+                height:120px
+            }
+            #parc-longchamp{
+                width:320px;
+                margin-top:40px;
+
+            }
+            #parc-longchamp img {
+                width:320px;
+                height:180px;
+            }
+
+            footer{
+                margin-top: 50px;
+                display: flex;
+                flex-direction: row;
+                background-color:  #F2F2F2;
+                padding-bottom: 50px;
+            }
+            footer div{
+                width: 100%;
+                margin-top: 40px;
+                line-height: 1.7em;
+                margin-left: 40px;
+            }
+            footer h2{
+                margin-bottom: 10px;
+            }
+            footer a {
+                color: black;
+                font-size: 18px;
+                
+            }
+    }
+    
+}
+@media all and (min-width:2560px){
+    .wrapper{
+        width:100%;
+     }
+     header img {
+         height:600px;
+         width:700px;
+     }
+     header h1{
+         font-size:50px;
+     }
+        
+        .filtre{
+            width:900px;
+            margin-top: 20;
+            line-height: 2em;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 20px;
+            margin-left:0 ;
+            
+        }
+        .filtre h3{
+            margin-top: 25px;
+        }
+        .theme  {
+            border: 4px solid #F2F2F2 ;
+            border-left: none;
+            border-radius:25%;
+            height: 40px;
+            width: 150px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            
+        }
+        .animaux{
+            width: 200px;
+        }
+        .icone {
+            width: 20px;
+            height: 20px;
+            border: 10px solid #F2F2F2;
+            border-radius: 60%;
+        }
+        .theme a{
+            margin-left: 20px;
+            font-size: 15px;
+            color: black;
+        }
+        #eco{
+            background: url("images/logo/money-bill-wave-solid.svg") no-repeat #DEEBFF center  ;
+        }
+        #fam{background: url("images/logo/child-solid.svg") no-repeat #DEEBFF center ;}
+        #rom{background: url("images/logo/heart-solid.svg")no-repeat #DEEBFF center ;}
+        #pet{background: url("images/logo/dog-solid.svg")no-repeat #DEEBFF center ;}
+        .info{
+            margin-top:20px;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        #info-icone{
+            background: url("images/logo/info-circle-solid.svg") no-repeat;
+            border:1px solid #F2F2F2;
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+        }
+        .info p {
+            margin-left: 10px;
+            font-size: 12px;
+        }
+        .populaire{     
+            order:1;
+            background-color:  #F2F2F2;
+            width:33%;
+            
+            border-radius:5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+        }
+        section aside{
+            
+            margin-bottom: 30px;
+            margin-top: 40px;
+            align-self: flex-start;
+            width: 400px;
+            margin-left: 30px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        aside div{
+            background: url("images/logo/chart-line-solid.svg") no-repeat;
+            width: 30px;
+            height: 30px;
+            margin-top: 5px;
+        }
+        .vignette{
+           align-self: center;
+            margin-bottom: 50px;
+            margin-left: ;
+            border:1px solide white;
+            box-shadow: white 5px 5px 5px;
+            width:400px;
+           border-radius: 18%;
+           background-color:white;
+           display: flex;
+           flex-direction: row;
+           font-size: 15px;
+        
+        }
+        .vignette img {
+            width: 160px;
+            height: 180px;
+            border-radius: 18% 0 0 18%;
+            margin-right:20px;
+        }
+        #hotes{
+            width:250px;
+        }
+        #hotelbb{
+            width:180px;
+        }
+        .detail{
+            margin-top: 10px;
+        }
+        .vignette p{
+            line-height: 2rem;
+            
+        }
+        .note{
+        display: flex;
+        margin-top: 0;
+        }
+        .star-solid{
+        background: url("images/logo/star-solid.svg") no-repeat;
+        width: 20px;
+        height: 20px;
+        }
+        .star-regular{
+        background: url("images/logo/star-regular.svg") no-repeat;
+        width: 20px;
+        height: 20px;
+        }
+        .hebergement {
+            order:0;
+            
+          
+            border-radius:5%;
+            width:62%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            justify-content: ;
+            }
+            .hebergement aside{
+            width:600px;
+            margin-left: 30px;
+            
+            }
+            .vignette2{
+            border: 1px solid #F2F2F2;
+            box-shadow: #F2F2F2 5px 5px 5px;
+            width: 1000px;
+            border-radius:10%;
+            margin-top:;
+            padding-bottom: 20px;
+            margin-left:18px;
+            font-size: 15px;
+            }
+            .vignette2 img{
+                width:260px;
+                height:150px;
+                border-radius: 10% 10% 0 0%;
+            }
+            .vignette2 .detail{
+                margin-left: 15px;
+            }
+            .note{
+                margin-top:10px
+            }
+            .hebergement a{
+                color:black;
+                font-size:15px;
+                align-self:flex-start;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .activite{
+                order:2;
+                width:100%;
+                align-self: flex-start;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            
+            }
+            .activite aside{
+                margin-left: 30px;
+                width:100%;
+            }
+            .petit {
+                
+                display: flex;
+                flex-direction: column;
+            }
+            
+            
+            #vieux{
+                height:400px;
+                width:320px;
+                
+            }
+            #vieux-port{
+                width: 320px ;
+            }
+            #parc-national{
+                width: 320px ;
+            }
+            #national{
+                width:320px;
+                height:400px;
+            }
+            #fort-de{
+                width:320px;
+            }
+            #fort-de img{
+                width:320px;
+                height:180px;
+            }
+            #ile{
+                width:320px;
+                margin-top:50px;
+            }
+            #ile img{
+                width:320px;
+                height:110px;
+            }
+            #notre-dame{
+               width:320px; 
+            }
+            #notre-dame img{
+                width:320px;
+                height:120px
+            }
+            #parc-longchamp{
+                width:320px;
+                margin-top:40px;
+
+            }
+            #parc-longchamp img {
+                width:320px;
+                height:180px;
+            }
+
+            footer{
+                margin-top: 50px;
+                display: flex;
+                flex-direction: row;
+                background-color:  #F2F2F2;
+                padding-bottom: 50px;
+            }
+            footer div{
+                width: 100%;
+                margin-top: 40px;
+                line-height: 1.7em;
+                margin-left: 40px;
+            }
+            footer h2{
+                margin-bottom: 10px;
+            }
+            footer a {
+                color: black;
+                font-size: 18px;
+                
+            }
+
 }
