@@ -1014,11 +1014,11 @@ footer a {
             color: black;
         }
         #eco{
-            background: url("images/logo/money-bill-wave-solid.svg") no-repeat #DEEBFF center  ;
+            background:  no-repeat #DEEBFF center  ;
         }
-        #fam{background: url("images/logo/child-solid.svg") no-repeat #DEEBFF center ;}
-        #rom{background: url("images/logo/heart-solid.svg")no-repeat #DEEBFF center ;}
-        #pet{background: url("images/logo/dog-solid.svg")no-repeat #DEEBFF center ;}
+        #fam{background:  no-repeat #DEEBFF center ;}
+        #rom{background:no-repeat #DEEBFF center ;}
+        #pet{background:no-repeat #DEEBFF center ;}
         .info{
             margin-top:20px;
             display: flex;
@@ -1026,7 +1026,7 @@ footer a {
             
         }
         #info-icone{
-            background: url("images/logo/info-circle-solid.svg") no-repeat;
+            background:  no-repeat;
             border:1px solid #F2F2F2;
             width: 20px;
             height: 20px;
