@@ -9,6 +9,13 @@
     font-family: "raleway";
     src: url("Raleway-VariableFont_wght.ttf");
 }
+@font-face{
+    font-family: "raleway-bold";
+    src: url("static/Raleway-Bold.ttf");
+}
+.filtre a, h2{
+    font-family: "raleway-bold";
+}
 body{
     font-family:"raleway";
 }
@@ -104,7 +111,7 @@ border-bottom:3px solid  #0065FC;
     flex-direction: column;
     width: 300px;
     line-height: 2em;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
 .bar{
@@ -217,7 +224,7 @@ font-size: 12px;
 }
 .info p {
     margin-left: 3.125%;
-    font-size: 8px;
+    font-size: 13px;
     align-self: center;
 }
 /* fin search */
@@ -363,6 +370,7 @@ footer h2{
     margin-bottom: 10px;
     font-size: 18px;
 }
+
 footer a {
     color: black;
     font-size: 13px;
@@ -422,7 +430,6 @@ footer a {
     }
     .info{
        margin-left: 30px;
-        width:340px;
 
     }
     #info-icone{
@@ -430,7 +437,7 @@ footer a {
         width: 25px;
         height: 25px;}
     .info p {
-        font-size: 17px;
+        font-size: 15px;
         margin-left: 18px;
         
 
@@ -522,7 +529,7 @@ footer a {
             width: 180px;
         }
         .info p {
-            font-size: 15px;
+            font-size: 17px;
         }
         .populaire{     
             width:100%;  
@@ -687,10 +694,14 @@ footer a {
                         height:270px;
                     } 
                     footer div{
-                        margin-left: 40px;
+                        margin-left: 60px;
                     }
                     footer h2{
-                        font-size:27px;
+                        font-size:30px;
+                        margin-bottom: 20px;
+                    }
+                    footer p{
+                        margin-top: 10px;
                     }
                     footer a {
                         font-size: 20px ;
@@ -1061,10 +1072,17 @@ footer a {
                 margin-left: 30px;
                 width:100%;
             }
+           .vignette2-container2{
+                width: 100%;
+                display: flex;
+               flex-direction: row;
+               justify-content: space-around;
+           }
             .petit {
                 
                 display: flex;
                 flex-direction: column;
+             
             }
             
             
@@ -1118,7 +1136,7 @@ footer a {
                 margin-top: 50px;
                 display: flex;
                 flex-direction: row;
-                background-color:  #F2F2F2;
+               
                 padding-bottom: 50px;
             }
             footer div{
@@ -1128,11 +1146,11 @@ footer a {
                 margin-left: 40px;
             }
             footer h2{
-                margin-bottom: 10px;
+                margin-bottom: 20px;
             }
             footer a {
                 color: black;
-                font-size: 13px;
+                font-size: 18px;
             }
     }
 
@@ -1317,8 +1335,7 @@ footer a {
                 
                 display: flex;
                 flex-direction: column;
-                margin-left: 20px;
-                margin-right:10px;
+               
             }
             
             
@@ -1329,7 +1346,7 @@ footer a {
             }
             #vieux-port{
                 width: 320px ;
-                margin-right:10px;
+               
             }
             #parc-national{
                 width: 320px ;
@@ -1384,11 +1401,11 @@ footer a {
                 margin-left: 40px;
             }
             footer h2{
-                margin-bottom: 10px;
+                margin-bottom: 20px;
             }
             footer a {
                 color: black;
-                font-size: 18px;
+                font-size: 22px;
                 
             }
     }
