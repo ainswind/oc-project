@@ -363,7 +363,6 @@ footer{
 footer div{
     width: 100%;
     margin-top: 40px;
-    line-height: 1.5em;
     margin-left: 40px;
 }
 footer h2{
@@ -1143,7 +1142,7 @@ footer a {
             footer div{
                 width: 100%;
                 margin-top: 40px;
-                line-height: 1.5em;
+                
                 margin-left: 40px;
             }
             footer h2{
@@ -1401,7 +1400,7 @@ footer a {
             footer div{
                 width: 100%;
                 margin-top: 40px;
-                line-height: 1.7em;
+            
                 margin-left: 40px;
             }
             footer h2{
