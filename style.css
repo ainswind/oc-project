@@ -237,7 +237,7 @@ font-size: 12px;
     flex-direction: column;
     align-items: center;  
 }
-section aside{
+.populaire aside, .hebergement aside, .activite aside{
     margin-bottom: 30px;
     margin-top: 40px;
     align-self: flex-start;
@@ -257,7 +257,7 @@ section aside{
    align-self: center;
     margin-bottom: 50px;
     
-    border:1px solide white;
+    border:1px solid white;
     box-shadow: white 5px 5px 5px;
     width:280px;
    border-radius: 14%;
@@ -378,7 +378,7 @@ footer a {
 }
 /* mobile M */
 @media all and (min-width:375px){
-    section aside{
+    .populaire aside, .hebergement aside, .activite aside{
         
         width:300px;
     }
@@ -533,7 +533,7 @@ footer a {
         .populaire{     
             width:100%;  
         }
-        section aside{
+        .populaire aside, .hebergement aside, .activite aside{
             width: 87.1%;
             font-size:17px;
         }
@@ -641,7 +641,7 @@ footer a {
                     width: 100%;  
                 }
                
-                section aside{
+                .populaire aside, .hebergement aside , .activite aside{
                     width: 650px;
                     font-size:25px;
                     margin-left:40px;
@@ -942,7 +942,7 @@ footer a {
             flex-direction: column;
             align-items: center;  
         }
-        section aside{
+        .populaire aside, .hebergement aside, .activite aside {
             
             margin-bottom: 30px;
             margin-top: 40px;
@@ -963,8 +963,7 @@ footer a {
         .vignette{
            align-self: center;
             margin-bottom: 50px;
-            border:1px solide white;
-            box-shadow: white 5px 5px 5px;
+            
             width:310px;
            border-radius: 18%;
            background-color:white;
@@ -1207,7 +1206,7 @@ footer a {
             flex-direction: column;
             align-items: center;  
         }
-        section aside{
+        .populaire aside, .hebergement aside, .activite aside{
             
             margin-bottom: 30px;
             margin-top: 40px;
@@ -1229,8 +1228,7 @@ footer a {
            align-self: center;
             margin-bottom: 50px;
             
-            border:1px solide white;
-            box-shadow: white 5px 5px 5px;
+           
             width:400px;
             
            border-radius: 18%;
@@ -1413,4 +1411,3 @@ footer a {
             }
     }
     
-}
